@@ -1,4 +1,1 @@
-tz-scripts
-==========
-
-scripts used in tz
+在tz时，工作中用到的脚本
