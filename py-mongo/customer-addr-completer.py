@@ -20,13 +20,15 @@ cd = 'utf8'
 region_province = {}
 region_city = {}
 
-info_log = open('info.log','w')
-error_log = open('error.log','w')
+info_log = open('completer-info.log','w')
+error_log = open('completer-error.log','w')
 
 def info(msg):
+    print msg
     info_log.write(msg + "\n")
 
 def error(msg):
+    print msg
     error_log.write(msg + "\n")
 
 def prepare_mobile_prefixes():
